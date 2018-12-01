@@ -184,9 +184,10 @@ echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
 </div>
 
 <div align="center">
-<a href="https://www.flickr.com/"><img width="75" height="75" src="flickr_logo.png"></img></a>
-<a href="https://www.youtube.com/"><img width="75" height="75" src="youtube.jpg"></img></a>
-<a href="https://www.yelp.com/"><img width="75" height="75" src="yelp.png"></img></a>
+<a href="https://console.cloud.google.com/marketplace/details/google/geolocation.googleapis.com?filter=category:maps&id=b87d2884-ba68-47f9-aaf0-b29ae1919bb7&pli=1"><img width="75" height="75" src="geolocation.png"></img></a>
+<a href="https://www.flickr.com/services/api/"><img width="75" height="75" src="flickr_logo.png"></img></a>
+<a href="https://developers.google.com/youtube/v3/"><img width="75" height="75" src="youtube.jpg"></img></a>
+<a href="https://www.yelp.com/fusion"><img width="75" height="75" src="yelp.png"></img></a>
 </div>
 
 <div class="footer" style="background-color:#ffc440; overflow: auto;" class="clear_fix">

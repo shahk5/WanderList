@@ -76,9 +76,10 @@ Developed at Rowan University(2018)
 	  <p>WanderList lets you navigate through some amazing pictures, videos and reviews about your favourite destination and helps you plan your next vacation.</p>
 	  <div><br></br></div>
 <div align="center">
-<a href="https://www.flickr.com/"><img width="75" height="75" src="flickr_logo.png"></img></a>
-<a href="https://www.youtube.com/"><img width="75" height="75" src="youtube.jpg"></img></a>
-<a href="https://www.yelp.com/"><img width="75" height="75" src="yelp.png"></img></a>
+<a href="https://console.cloud.google.com/marketplace/details/google/geolocation.googleapis.com?filter=category:maps&id=b87d2884-ba68-47f9-aaf0-b29ae1919bb7&pli=1"><img width="75" height="75" src="geolocation.png"></img></a>
+<a href="https://www.flickr.com/services/api/"><img width="75" height="75" src="flickr_logo.png"></img></a>
+<a href="https://developers.google.com/youtube/v3/"><img width="75" height="75" src="youtube.jpg"></img></a>
+<a href="https://www.yelp.com/fusion"><img width="75" height="75" src="yelp.png"></img></a>
 </div>
 	  <p>This Website is a part of Final Project for Capstone, developed at Rowan University</p>
 	  <h2>Developers</h2>
