@@ -1,6 +1,7 @@
 # WanderList
 ----------------------------------------------------------------------------------
 WanderList Travel Website
+
 This website shows the picturs, videos and reviews of the destination searched
 ----------------------------------------------------------------------------------
 
