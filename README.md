@@ -1,1 +1,1 @@
-# travel-easy
+# WanderList
