@@ -1,12 +1,14 @@
-# We import the requests module which allows us to make the API call
 #! /usr/bin/python3
+
+# We import the requests module which allows us to make the API call
 import json
 import requests
-import mysql.connector
+import _mysql
 import argparse
 import urllib
 import sys
 import pprint
+
 
 from urllib.error import HTTPError
 from urllib.parse import quote
@@ -23,7 +25,7 @@ SEARCH_PATH = '/v3/businesses/search'
 BUSINESS_PATH = '/v3/businesses/'
 
 
-location = input("Enter Zip Code: ")
+location = input("Enter Location: ")
 search_limit = 1
 
 def request(host, path, api_key, url_params=None):
@@ -116,18 +118,18 @@ def query_api(location):
         
         print (bus_name + " ... adding to DB. ")
 
-        conn = mysql.connector.connect(user='root', password = '', host ='localhost', database ='yelp')
+        conn = _mysql.connect(host ='localhost', user='shahk5', passwd = 'warmmuffins',  db ='shahk5')
 
-        cursor = conn.cursor()
+        
 
-        myquery = ("INSERT INTO reviews " "(bus_name, rating, text)" "VALUES (%s ,%s,%s)", (bus_name, user_rating, text))
-
-        cursor.execute(*myquery)
+        myquery = """INSERT INTO reviews(bus_name, rating, text) VALUES('%s', '%s', '%s')""" %(bus_name, user_rating, text)
+        #+ bus_name +", "+ user_rating + "," + text +
+        conn.query(myquery)
         conn.commit()
         print ("added.")
         
         
-    cursor.close()
+    
     conn.close()
     
 
